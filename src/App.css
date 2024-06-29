@@ -13,6 +13,55 @@
   }
 }
 
+
+/*  */
+
+
+.cart-card{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 15%;
+  
+}
+
+.cart-pic img{
+width: 81px;
+
+}
+
+.addToCart img{
+  width: 50px;
+  position: absolute;
+  right: 50px;
+  background: rgba(0, 209, 94, 0.59);
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+
+
+.cartCount{
+  position: absolute;
+  right: 51px;
+  background: black;
+  width: 24px;
+  top: 23px;
+  height: 23px;
+  color: #ffffff;
+  z-index: 1;
+  border-radius: 50%;
+}
+
+
+
+/*  */
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
